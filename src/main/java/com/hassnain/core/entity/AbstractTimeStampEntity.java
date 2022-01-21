@@ -27,12 +27,12 @@ public class AbstractTimeStampEntity {
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "CREATED_BY", nullable = false)
+    @Column(name = "CREATED_AT", nullable = false)
     private Date createdAt;
 
     @Temporal(TemporalType.TIMESTAMP)
     @UpdateTimestamp
-    @Column(name = "UPDATED_BY", nullable = false)
+    @Column(name = "UPDATED_AT", nullable = false)
     private Date updatedAt;
 
 
