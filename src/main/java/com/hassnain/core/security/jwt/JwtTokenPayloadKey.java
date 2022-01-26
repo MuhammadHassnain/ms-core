@@ -15,7 +15,7 @@ public enum JwtTokenPayloadKey {
         this.key = key;
     }
 
-    String getKey(){
+    public String getKey(){
         return key;
     }
 }
